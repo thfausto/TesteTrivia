@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9rNODVXWG8mrC/EJfiNt9bW1T7zHd6kWgGHMklgPw9fjGgOumU95dtpaIbcA65ZqJJzWq0D8+8pSd0nmB2Nx8Q==",
+  "dgSpecHash": "eC4d8OygGBL2KqkGZVPfQPNchgvRPp/sH1bZ5SJl27uJaBtbJIfHzKJ71Xd1JAKyADV9WwVWxMWGjRTvZiagxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiago.vieira\\source\\repos\\Fausto.Tests\\Trivia.Tests.csproj",
+  "projectFilePath": "C:\\DEV\\TesteTrivia\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiago.vieira\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\thiago.vieira\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",
