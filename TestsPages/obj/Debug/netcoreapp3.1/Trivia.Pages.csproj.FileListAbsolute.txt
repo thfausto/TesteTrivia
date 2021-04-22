@@ -219,8 +219,11 @@ C:\DEV\TesteTrivia\TestsPages\bin\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.csprojAssemblyReference.cache
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.AssemblyInfoInputs.cache
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.AssemblyInfo.cs
-C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.csproj.CoreCompileInputs.cache
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.csproj.CopyComplete
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.dll
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.pdb
 C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.genruntimeconfig.cache
+C:\DEV\TesteTrivia\TestsPages\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\DEV\TesteTrivia\TestsPages\bin\Debug\netcoreapp3.1\Dynamitey.dll
+C:\DEV\TesteTrivia\TestsPages\bin\Debug\netcoreapp3.1\SpecFlow.Assist.Dynamic.dll
+C:\DEV\TesteTrivia\TestsPages\obj\Debug\netcoreapp3.1\Trivia.Pages.csproj.CoreCompileInputs.cache

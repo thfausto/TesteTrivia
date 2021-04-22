@@ -9,7 +9,7 @@ namespace Pages
         public string url = "https://opentdb.com/";
 
         //Elements mapping =================================
-        #region mapeamentologin
+        #region mapeamento
         public IWebElement ButtonBrowse()
         {
             return FindElement(By.XPath("/html/body/section/div/div/div/a[1]"));
@@ -17,7 +17,7 @@ namespace Pages
 
         public IWebElement InputBusca()
         {
-            return FindElement(By.Name("query"));
+            return FindElement(By.Id("query"));
         }
 
         public IWebElement ButtonSearch()
@@ -55,6 +55,41 @@ namespace Pages
             return FindElement(By.XPath("/html/body/div[2]/table/tbody/tr/td[6]"));
         }
 
+        public IWebElement DadosTabela()
+        {
+            return FindElement(By.XPath("/html/body/div[2]/table/tbody"));
+        }
+                
+
+        public int QuantiadeLista()
+        {
+            return FindElements(By.XPath("/html/body/div[2]/table/tbody/tr")).Count;
+        }
+
+        public IWebElement Paginacao()
+        {
+            return FindElement(By.XPath("/html/body/div[2]/center/ul/li[1]/a"));
+        }
+
+        public IWebElement InputTipoBusca() => FindElement(By.Id("type"));            
+
+
+        public IWebElement MsgBuscaInvalidaQuestion()
+        {
+            return FindElement(By.XPath("/html/body/div[2]/div"));
+        }
+
+        public IWebElement MsgBuscaInvalidaUser()
+        {
+            return FindElement(By.XPath("/html/body/div[2]/div"));
+        }
+
+        public IWebElement MsgBuscaInvalidaCategory()
+        {
+            return FindElement(By.XPath("/html/body/div[2]/div"));
+        }
+
+
         #endregion
         //Elements mapping =================================
 
@@ -71,6 +106,12 @@ namespace Pages
             InputBusca().SendKeys(busca);
         }
 
+        public void TypeBusca(string tipobusca)
+        {
+            InputTipoBusca().SendKeys(tipobusca);
+        }
+                
+
         public void BtnSearch()
         {
             ButtonSearch().Click();
@@ -82,9 +123,20 @@ namespace Pages
 
         //Page Behaviors ===================================
         public void RealizarBusca(string busca)
-        {
-            BtnBrowse();
+        {            
             TypeCampoBusca(busca);            
+            BtnSearch();
+        }
+
+        public void Buscar()
+        {
+            BtnSearch();
+        }
+
+        public void RealizarTipoBusca(string busca, string tipobusca)
+        {
+            TypeCampoBusca(busca);
+            TypeBusca(tipobusca);
             BtnSearch();
         }
         //Page Behaviors ===================================

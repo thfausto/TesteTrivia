@@ -221,8 +221,11 @@ C:\DEV\TesteTrivia\TriviaInfra\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstand
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
-C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache
+C:\DEV\TesteTrivia\TriviaInfra\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\DEV\TesteTrivia\TriviaInfra\bin\Debug\netcoreapp3.1\Dynamitey.dll
+C:\DEV\TesteTrivia\TriviaInfra\bin\Debug\netcoreapp3.1\SpecFlow.Assist.Dynamic.dll
+C:\DEV\TesteTrivia\TriviaInfra\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache

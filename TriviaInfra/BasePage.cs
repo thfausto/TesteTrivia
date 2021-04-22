@@ -1,6 +1,8 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using static Infrastructure.DriverManagement;
 
 namespace Infrastructure
@@ -22,22 +24,22 @@ namespace Infrastructure
             }
         }
 
+        public static List<IWebElement> FindElements(By selector)
+        {
+            try
+            {
+                return DriverWaiter().Until(drv => drv.FindElements(selector)).ToList();
+            }
+            catch (WebDriverTimeoutException)
+            {
+                return DriverWaiter().Until(drv => drv.FindElements(selector)).ToList();
+            }
+        }
+
         private static WebDriverWait DriverWaiter()
         {
             return new WebDriverWait(driver, TimeSpan.FromSeconds(7));
-        }
-
-        public static string GetEnvironment()
-        {
-            var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-
-            switch (Environments)
-            {
-                case "Ambiente de testes":
-                default:
-                    return "https://the-internet.herokuapp.com/";
-            }
-        }
+        }            
 
     }
 

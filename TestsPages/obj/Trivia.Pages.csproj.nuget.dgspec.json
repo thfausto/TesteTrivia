@@ -61,6 +61,18 @@
             "SpecFlow": {
               "target": "Package",
               "version": "[3.7.38, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.7.38, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.7.38, )"
             }
           },
           "imports": [
@@ -137,6 +149,18 @@
               "version": "[3.141.0, )"
             },
             "SpecFlow": {
+              "target": "Package",
+              "version": "[3.7.38, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.7.38, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
               "target": "Package",
               "version": "[3.7.38, )"
             }
