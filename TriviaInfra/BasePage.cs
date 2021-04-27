@@ -8,9 +8,7 @@ using static Infrastructure.DriverManagement;
 namespace Infrastructure
 {
     public class BasePage
-    {
-        static string Environments = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-
+    {       
 
         public static IWebElement FindElement(By selector)
         {
@@ -38,8 +36,8 @@ namespace Infrastructure
 
         private static WebDriverWait DriverWaiter()
         {
-            return new WebDriverWait(driver, TimeSpan.FromSeconds(7));
-        }            
+            return new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+        }             
 
     }
 

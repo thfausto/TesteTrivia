@@ -58,8 +58,7 @@ namespace Pages
         public IWebElement DadosTabela()
         {
             return FindElement(By.XPath("/html/body/div[2]/table/tbody"));
-        }
-                
+        }              
 
         public int QuantiadeLista()
         {
@@ -89,12 +88,11 @@ namespace Pages
             return FindElement(By.XPath("/html/body/div[2]/div"));
         }
 
-
         #endregion
         //Elements mapping =================================
 
         //Elements actions =================================
-        #region elementosacaologin
+        #region elementosacao
 
         public void BtnBrowse()
         {
@@ -109,8 +107,7 @@ namespace Pages
         public void TypeBusca(string tipobusca)
         {
             InputTipoBusca().SendKeys(tipobusca);
-        }
-                
+        }               
 
         public void BtnSearch()
         {

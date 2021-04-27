@@ -2,7 +2,7 @@
 	Simple calculator for adding two numbers
 
 @cn01
-Scenario: Busca por questão inexistente
+Scenario: Busca por Questão Inexistente
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca
 	| busca | 
@@ -20,7 +20,7 @@ Scenario: Realizar Contagem de Listagem
 	Then contagem com sucesso
 
 @cn03
-Scenario: Realizar Busca válida por Questão
+Scenario: Realizar Busca Válida por Questão
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca
 	| busca | 
@@ -30,7 +30,7 @@ Scenario: Realizar Busca válida por Questão
 
 
 @cn04
-Scenario: Realizar Busca inválida por Questão
+Scenario: Realizar Busca Inválida por Questão
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca
 	| busca | 
@@ -40,7 +40,7 @@ Scenario: Realizar Busca inválida por Questão
 
 
 @cn05
-Scenario: Realizar Busca válida por Categoria
+Scenario: Realizar Busca Válida por Categoria
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca e tipo de busca
 	| busca              | tipobusca |
@@ -50,7 +50,7 @@ Scenario: Realizar Busca válida por Categoria
 
 
 @cn06
-Scenario: Realizar Busca inválida por Categoria
+Scenario: Realizar Busca Inválida por Categoria
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca e tipo de busca
 	| busca              | tipobusca |
@@ -60,7 +60,7 @@ Scenario: Realizar Busca inválida por Categoria
 
 
 @cn07
-Scenario: Realizar Busca válida por User
+Scenario: Realizar Busca Válida por User
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca e tipo de busca
 	| busca | tipobusca |
@@ -70,7 +70,7 @@ Scenario: Realizar Busca válida por User
 
 
 @cn08
-Scenario: Realizar Busca inválida por User
+Scenario: Realizar Busca Inválida por User
 	Given que navego para a página de busca do banco de questões
 	And digito no campo de busca e tipo de busca
 	| busca | tipobusca |
