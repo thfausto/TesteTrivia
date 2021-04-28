@@ -1,10 +1,6 @@
-# Teste de Automação para QA - CI&T
+# Teste de Automação CSharp com Specflow
 
 # Descrição do desafio proposto
-
-Este é um desafio criado para a nossa seleção de uma pessoa Engenheira de Software que irá atuar na role de QA.
-
-Leia atentamente todo o conteúdo desse documento antes de começar qualquer execução!
 
 Instruções gerais
 Iremos utilizar o site https://opentdb.com/ para realizar nosso teste, onde faremos alguns cenários utilizando a linguagem Gherkin.
