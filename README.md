@@ -50,7 +50,7 @@ $ git clone <https://github.com/thfausto/TesteTrivia.git>
 
 Clique no botão "Open a project or solution"
 
-Clique no arquivo Desafio_QA_Pixeon.sln
+Clique no arquivo FaustoEstudos.sln
 
 Agora o projeto será exibido
 
