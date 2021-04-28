@@ -5,14 +5,6 @@
 Instruções gerais
 Iremos utilizar o site https://opentdb.com/ para realizar nosso teste, onde faremos alguns cenários utilizando a linguagem Gherkin.
 
-À princípio, daremos um modelo para que você apenas crie os passos da automação. Depois, será necessário criar um teste baseado numa descrição de cenário. Por fim, você terá que criar um cenário que ache adequado para a situação. As descrições detalhadas dos passos estarão mais abaixo.
-
-O teste pode ser feito em qualquer linguagem de programação e com qualquer framework de teste de interface. Fica a seu critério escolher o que se adequa mais ao seu perfil e/ou ao seu conhecimento.
-
-A entrega desse teste pode ser feita através de um arquivo .zip ou .rar com os arquivos ou pode ser através de um link de seu Git pessoal (por exemplo).
-
-Além do teste acima, ao acesso o site Frontend 1 seu desafio é criar uma automação que valide um login (com sucesso e com erro).
-
 Tabela de conteúdos
 =================
 <!--ts-->
@@ -52,7 +44,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Além disto é bom ter um editor para trabalhar com o código como [Visual Studio 2019](https://visualstudio.microsoft.com/pt-br/downloads/)
 
 ### Clonar o repositório
-$ git clone <https://github.com/thfausto/DesafioQAPixeon.git>
+$ git clone <https://github.com/thfausto/TesteTrivia.git>
 
 ### Abrir o Visual Studio 2019
 
@@ -79,6 +71,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Visual Studio 2019 (https://visualstudio.microsoft.com/pt-br/vs/)
 - Selenium WebDriver (https://www.selenium.dev/documentation/en/webdriver/)
 - NUnit (https://nunit.org/)
-
+- SpecFlow (https://specflow.org/)
+- ExtentReports (https://www.extentreports.com/documentation/)
 
 
